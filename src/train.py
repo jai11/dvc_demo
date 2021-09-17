@@ -2,7 +2,7 @@ import sys
 import os
 import pickle
 import numpy as np
-import yaml
+import yaml 
 from sklearn.ensemble import RandomForestClassifier
 
 params = yaml.safe_load(open('params.yaml'))['train']
